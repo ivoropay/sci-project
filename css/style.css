@@ -1,4 +1,3 @@
-/* CSS Document */
 *{
 	margin: 0;
 	padding: 0;
@@ -19,25 +18,6 @@ h1{
 	font-family:Arial, Helvetica, sans-serif; color:#FFFFFF; font-size:30px;
 	line-height:normal;
 	}
-h2{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 30px;
-	color: #DCAE50;
-	background: url(../images/h2-icon.gif) repeat-x bottom;
-	line-height: normal;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 20px;
-	margin-left: 0px;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 5px;
-	padding-left: 0px;
-	}
-
-h2 span{
-	color: #001542;
-}
 
 
 h3{
@@ -107,13 +87,6 @@ ul li a:hover{
 	background-image: url(../images/top-head.jpg);
 	background-repeat: no-repeat;
 	}
-/*.logo{
-	height:83px;
-	width:303px;
-	float:left;
-	padding:54px 0px 0px 20px;
-	}*/
-
 
 .nav{
 	height:50px;
@@ -163,7 +136,6 @@ ul li a:hover{
 	box-shadow: 0px 0px;
 	}
 
-
 .nav ul li, .nav-bar ul li {
 	display: inline-block;
 	margin-right: -3px;
@@ -182,17 +154,10 @@ ul li a:hover{
 	padding-left: 19px;
 }
 
-
-
-
 .nav ul li a, .nav-bar ul li a{
 	color: #DEB752;
 	text-decoration: none;
 }
-
-
-
-
 
 li.first {
 	background-image: url(../images/home.png) !important;
@@ -201,13 +166,9 @@ li.first {
 	min-width: 10px;
 }
 
-
-
 li.second {
 	background-image: none !important;
 }
-
-
 
 .nav ul li a:hover, .nav-bar ul li a:hover {
 	color: #fff;
@@ -218,10 +179,6 @@ li.second {
 	transition: all 0.2s;
 	text-decoration: none;
 }
-
-
-
-
 
 .nav ul li ul, .nav-bar ul li ul {
   padding: 0;
@@ -241,6 +198,7 @@ li.second {
   -o-transition: opacity 0.2s;
   -transition: opacity 0.2s;
 }
+
 .nav ul li ul li, .nav-bar ul li ul li {
 	display: block;
 	color: #fff;
@@ -291,8 +249,6 @@ li.second {
   visibility: visible;
 }
 
-
-
 #header{
 	height:auto;
 	width:1000px;
@@ -301,42 +257,9 @@ li.second {
 	background-color:#fff;
 	}
 
-
-/*********************************************************Nivo Slider*********************************************/
-
-/*
- jQuery Nivo Slider v2.7.1
- http://nivo.dev7studios.com
- Copy
- 2011, Gilbert Pellegrom
- Free to use and abuse under the MIT license.
- http://www.opensource.org/licenses/mit-license.php
- */
-
 .nivoSlider{position:relative;}
-.nivoSlider img{top:0;left:0;height:331px;}
-.nivoSlider a.nivo-imageLink{position:absolute;top:0;left:0;width:100%;height:100%;border:0;padding:0;margin:0;z-index:6;display:none;}
-.nivo-slice{display:block;position:absolute;z-index:5;height:100%;}
-.nivo-box{display:block;position:absolute;z-index:5;}
-.nivo-caption{position:absolute;left:0;bottom:0;background:#000;color:#fff;opacity:0.8;width:100%;z-index:8;}
-.nivo-caption p{padding:5px;margin:0;}
-.nivo-caption a{display:inline!important;}
-.nivo-html-caption{display:none;}
-.nivo-directionNav a{position:absolute;top:45%;z-index:9;cursor:pointer;}
-.nivo-prevNav{left:0;}
-.nivo-nextNav{right:0;}
-.nivo-controlNav a{position:relative;z-index:9;cursor:pointer;}
-.nivo-controlNav a.active{font-weight:700;}
+.nivoSlider img{top:0;left:0;height:330px;}
 
-/*
-Skin Name: Nivo Slider Default Theme (modified)
-Skin URI: http://nivo.dev7studios.com
-Skin Type: flexible
-Description: The default skin for the Nivo Slider, modified to work with the Inland One template.
-Version: 1.2
-Author: Gilbert Pellegrom (modified by Andreas Viklund)
-Author URI: http://dev7studios.com
-*/
 .slider-wrapper .nivoSlider{
 	position: relative;
 	height: 400px;
@@ -644,12 +567,6 @@ a{
 a:hover{
 	text-decoration: underline
 }
-/*.clear{ clear:both}
-
- inner pages css start */
-/*h2{font:30px "Times New Roman", Times, serif ;margin:0px; color:#ffda4c;  padding:15px 0px 10px 10px;}
-h2 span{color:#16eb00}*/
-
 h5{
 	font: 15px Tahoma, Arial, Helvetica, sans-serif;
 	color: #0B1F34;
@@ -1374,14 +1291,8 @@ li.lof-navigator-item:hover{
 	padding: 0 10px;
 }
 
-#message{overflow:hidden; background:url(../images/h2-icon.gif) repeat-x bottom; padding:10px 0 10px 0; height:400px;}
-
 #news{height: 350px; margin: 30px 0 30px 0;}
 
-#news h2{
-	font-size:18px;
-	color:#0B1F34
-}
 .p_message{margin: 8px 0 0 0;}
 
 #mma_info {margin:15px 0 0 0;}
