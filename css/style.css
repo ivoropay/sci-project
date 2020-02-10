@@ -1053,145 +1053,10 @@ margin-left: 330px;
 }
 
 #news{height: 350px; margin: 30px 0 30px 0;}
-
-.app_list li{margin:5px 0 0 20px;}
-
-.left-side{
-	float: left;
-	width: 270px;
-	margin: 0px;
-	padding-top: 0;
-	padding-right: 0px;
-	padding-bottom: 0;
-	padding-left: 0;
-}
-
-.right{float:right; width:620px;}
-
-.top-info{margin:15px 0 25px 0; background-color:#e5e9f7; padding:12px; overflow:hidden;}
-
-.plex-info{ background-color:#931b1d; padding:15px; color:#ffffff; font-weight:bold;}
-
-#closer-div{ width:60px; float:right;}
-
-/***********************************************International Students*********************************/
-
-.ftrght{float:right;}
-#international p{font-weight:normal;}
-
-/************************************trendingNews******************************************************/
 #trendingNews{ height:1500px; padding:15px 0 0 0; overflow:auto; background-color:#FFF;}
 
+.fltlft { float:left;}
 
-
-
-/***********************************************Photo Album*************************************/
-
-.photo_album td{ width:100px; height: 60px; list-style-type: none outside none; padding:10px; list-style-type:none; padding:0; vertical-align:top}
-.photo_album img{border:1px solid #f4f4f4; margin:0; padding:4px; background:#fff;}
-.photo_album p{text-align:center;}
-.mma_album{padding:20px 0px 16px 0px;}
-
-.gal{overflow:hidden; height: auto;}
-
-
-/*******************************************************Enviro*****************************************************/
-
-#enviro{padding: 20px 0 0 0;}
-.enviro{margin:0 auto;}
-.enviro td{padding:4px 4px 4px 10px; width:400px; border:1px dashed #CCC; }
-
-#moved{overflow:hidden;
-margin-bottom: 30px}
-
- /* ------------------------------------------------- */
-
-#enviro #tabs {
-    overflow: hidden;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-
-#enviro  #tabs li {
-    float: left;
-    margin: 0 -15px 0 0;
-  }
-
-#enviro  #tabs a {
-    float: left;
-    position: relative;
-    padding: 0 40px;
-    height: 0;
-    line-height: 30px;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #fff;
-    border-right: 30px solid transparent;
-    border-bottom: 30px solid #3D3D3D;
-    border-bottom-color: #777\9;
-    opacity: .3;
-    filter: alpha(opacity=30);
-  }
-
-#enviro  #tabs a:hover,
-#enviro  #tabs a:focus {
-    border-bottom-color: #2989dd;
-    opacity: 1;
-    filter: alpha(opacity=100);
-  }
-
- #enviro #tabs a:focus {
-    outline: 0;
-  }
-
- #enviro #tabs #current {
-    z-index: 3;
-    border-bottom-color: #0b1f34;
-    opacity: 1;
-    filter: alpha(opacity=100);
-  }
-
-  /* ----------- */
- #enviro #content {
-      background: #fff;
-      border-top: 2px solid #3d3d3d;
-      padding: 2em 0 0 0;
-      /*height: 220px;*/
-  }
-
-  #enviro #content h2,
- #enviro #content h3,
- #enviro #content p {
-      margin: 0 0 15px 0;
-  }
-
-
- /************************************************************parent***************************************************/
-
- #parent{height:auto; padding:20px 10px 10px 10px;}
-
- .p_lk_left{width:340px; float:left;}
-
- .p_lk_right{width:525px; float:right;}
-
- .p_link{ font-weight:bold;}
-
- ul.p_link {
-	margin-bottom: 20px;
-	margin-left: 15px;
-}
-
- li.p_link {list-style-position:inside;}
-
- .fltlft { float:left;}
-
-
-
-/*********************************
-	-	BUTTON LIGHT	-
-**********************************/
 .buttonlight {
  margin-top:10px;
  height: 30px;
@@ -1224,12 +1089,6 @@ margin-bottom: 30px}
 	 background-image: linear-gradient(270deg, rgba(41,51,54,1) -10px, rgba(99,99,108,0.7) 50%);
 }
 
-
-
-
-/*********************************
-	-	BUTTON DARK	-
-**********************************/
 .buttondark {
  margin-top:10px;
  height: 30px;
@@ -1268,10 +1127,4 @@ margin-bottom: 30px}
 	width: 90px;
 	margin-top: 80px;
 	margin-right: -100px;
-}
-
-
-.hide {
-	display: none;
-	visibility: hidden;
 }
