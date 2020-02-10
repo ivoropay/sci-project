@@ -5,8 +5,7 @@
 
 body {
     margin: 0;
-    background: #e5e5e5 url(../images/bcg.jpg) repeat-x;
-    background-position: top right;
+    background: #e5e5e5 url(../images/bcg.jpg) repeat-x top right;
     font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: 12px;
     line-height: 18px;
@@ -30,14 +29,8 @@ h3 {
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: rgba(204, 204, 204, 1);
-    margin-top: 0;
-    margin-right: 0;
-    margin-bottom: 10px;
-    margin-left: 0;
-    padding-top: 0;
-    padding-right: 0;
-    padding-bottom: 5px;
-    padding-left: 0;
+    margin: 0 0 10px;
+    padding: 0 0 5px;
 }
 
 ul {
@@ -119,14 +112,8 @@ ul li a:hover {
     -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
     z-index: 10;
-    margin-top: 0;
-    margin-right: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    padding-top: 17px;
-    padding-right: 5px;
-    padding-bottom: 17px;
-    padding-left: 7px;
+    margin: 0;
+    padding: 17px 5px 17px 7px;
 }
 
 .nav-bar ul {
@@ -147,10 +134,7 @@ ul li a:hover {
     font-size: 12px;
     line-height: 18px;
     font-weight: normal;
-    padding-top: 15px;
-    padding-right: 17px;
-    padding-bottom: 15px;
-    padding-left: 19px;
+    padding: 15px 17px 15px 19px;
 }
 
 .nav ul li a, .nav-bar ul li a {
@@ -321,10 +305,7 @@ li.second {
     list-style-type: disc;
     width: 470px;
     background-image: none;
-    margin-top: 0;
-    margin-right: 0;
-    margin-bottom: 2px;
-    margin-left: 20px;
+    margin: 0 0 2px 20px;
     color: #FC0;
 }
 
@@ -500,10 +481,7 @@ li.featured {
     text-shadow: 1px 1px 0 #333;
     color: #FFFFFF;
     font-size: 18px;
-    padding-top: 10px;
-    padding-right: 9px;
-    padding-bottom: 5px;
-    padding-left: 10px;
+    padding: 10px 9px 5px 10px;
 }
 
 
@@ -529,19 +507,13 @@ li.featured {
 .newslist li ul li {
     list-style-type: disc;
     margin: 0;
-    padding-top: 0;
-    padding-right: 0;
-    padding-bottom: 5px;
-    padding-left: 0;
+    padding: 0 0 5px;
     list-style-position: inside;
 }
 
 .newslist li ol li {
     margin: 0;
-    padding-top: 0;
-    padding-right: 0;
-    padding-bottom: 5px;
-    padding-left: 0;
+    padding: 0 0 5px;
     list-style-position: inside;
     list-style-type: decimal;
 }
