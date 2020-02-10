@@ -129,12 +129,15 @@ ul li a:hover{
 	width: 880px;
 	margin: auto;
 	background-color: #1D3D7A;
-	background-image: url(../images/nav-bkd.jpg);
-	background-repeat: repeat-y;
-	background-position: 0px 0px;
+	background-image: linear-gradient(270deg, rgba(0,19,65,1) -10px, rgba(29,60,125,0.7) 50%);
+	background-position: left bottom;
 	padding-left: 120px;
 	}
 
+.nav ul {
+	background-image: linear-gradient(270deg, rgba(0,19,65,1) -10px, rgba(29,60,125,0.7) 50%);
+	background-position: left bottom;
+}
 
 .nav ul, .nav-bar ul {
 	text-align: left;
@@ -340,9 +343,6 @@ Author URI: http://dev7studios.com
 	margin-bottom: 0px;
 	background-attachment: fixed;
 	background-color: #ffffff !important;
-	background-image: url(../images/nivoSlider/loading.gif);
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
 }
 .slider-wrapper .nivoSlider img{
 	margin-top: 35px;
@@ -1546,8 +1546,7 @@ margin-bottom: 30px}
 	text-decoration: none;
 	font-weight: normal;
 	background-color: #999;
-	background-image: url(../images/button/btn_light.png);
-	background-repeat: repeat-x;
+	background-image: linear-gradient(270deg, rgba(200,237,229,1) -10px, rgba(247,255,252,0.7) 50%);
 	background-position: center top;
 }
 
@@ -1557,7 +1556,7 @@ margin-bottom: 30px}
 	border: 1px solid #555555;
 	text-decoration: none;
 	background-color: #333;
-	background-image: url(../images/button/btn_dark.png);
+	 background-image: linear-gradient(270deg, rgba(41,51,54,1) -10px, rgba(99,99,108,0.7) 50%);
 }
 
 
@@ -1585,8 +1584,7 @@ margin-bottom: 30px}
 	text-decoration: none;
 	font-weight: normal;
 	background-color: #999;
-	background-image: url(../images/button/btn_dark.png);
-	background-repeat: repeat-x;
+	 background-image: linear-gradient(270deg, rgba(41,51,54,1) -10px, rgba(99,99,108,0.7) 50%);
 	background-position: center top;
 }
 
@@ -1596,7 +1594,7 @@ margin-bottom: 30px}
 	border: 1px solid #cdcdcd;
 	text-decoration: none;
 	background-color: #FFF;
-	background-image: url(../images/button/btn_light.png);
+	background-image: linear-gradient(270deg, rgba(200,237,229,1) -10px, rgba(247,255,252,0.7) 50%);
 }
 
 .more-news{
