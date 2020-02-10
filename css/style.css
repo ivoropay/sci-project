@@ -4,7 +4,7 @@
 }
 
 body {
-    margin: 0px;
+    margin: 0;
     background: #e5e5e5 url(../images/bcg.jpg) repeat-x;
     background-position: top right;
     font-family: Verdana, Arial, Helvetica, sans-serif;
@@ -14,8 +14,8 @@ body {
 }
 
 h1 {
-    margin: 0px;
-    padding: 0px 0px 10px 0px;
+    margin: 0;
+    padding: 0 0 10px 0;
     font-family: Arial, Helvetica, sans-serif;
     color: #FFFFFF;
     font-size: 30px;
@@ -30,18 +30,18 @@ h3 {
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: rgba(204, 204, 204, 1);
-    margin-top: 0px;
-    margin-right: 0px;
+    margin-top: 0;
+    margin-right: 0;
     margin-bottom: 10px;
-    margin-left: 0px;
-    padding-top: 0px;
-    padding-right: 0px;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
     padding-bottom: 5px;
-    padding-left: 0px;
+    padding-left: 0;
 }
 
 ul {
-    margin: 0px;
+    margin: 0;
     font-weight: bold;
     padding-top: 15px;
     color: rgba(102, 102, 102, 1);
@@ -57,8 +57,8 @@ ul li {
     font-size: 12px;
     line-height: 22px;
     background-image: none;
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
@@ -122,7 +122,7 @@ ul li a:hover {
     margin-top: 0;
     margin-right: 0;
     margin-bottom: 0;
-    margin-left: 0px;
+    margin-left: 0;
     padding-top: 17px;
     padding-right: 5px;
     padding-bottom: 17px;
@@ -130,9 +130,9 @@ ul li a:hover {
 }
 
 .nav-bar ul {
-    -webkit-box-shadow: 0px 0px;
-    -moz-box-shadow: 0px 0px;
-    box-shadow: 0px 0px;
+    -webkit-box-shadow: 0 0;
+    -moz-box-shadow: 0 0;
+    box-shadow: 0 0;
 }
 
 .nav ul li, .nav-bar ul li {
@@ -142,7 +142,7 @@ ul li a:hover {
     cursor: pointer;
     background-image: url(../images/separator.png);
     background-repeat: no-repeat;
-    background-position: 0px 4px;
+    background-position: 0 4px;
     font-family: sans-serif;
     font-size: 12px;
     line-height: 18px;
@@ -215,7 +215,7 @@ li.second {
     border-top-color: #2F4064;
     background-attachment: fixed;
     background-repeat: repeat-y;
-    background-position: 0px 0px;
+    background-position: 0 0;
 }
 
 .nav ul li ul li:hover, .nav-bar ul li ul li:hover {
@@ -229,7 +229,7 @@ li.second {
 }
 
 .nav-bar ul li ul li {
-    margin: 0px 0px 0px -8px;
+    margin: 0 0 0 -8px;
     padding-left: 28px;
 }
 
@@ -260,7 +260,7 @@ li.second {
 .slider-wrapper .nivoSlider {
     position: relative;
     height: 400px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     background-attachment: fixed;
     background-color: #ffffff !important;
 }
@@ -341,7 +341,7 @@ li.second {
     width: 960px;
     background: #0b1f34;
     margin: auto;
-    padding: 0px 20px 25px;
+    padding: 0 20px 25px;
     min-height: 350px;
 }
 
@@ -359,7 +359,7 @@ li.second {
     color: #FFFFFF;
     font-size: 11px;
     line-height: 22px;
-    margin: 0px;
+    margin: 0;
 }
 
 .mid-left p {
@@ -375,7 +375,7 @@ li.second {
     height: auto;
     width: 210px;
     float: left;
-    padding: 15px 0px 0px;
+    padding: 15px 0 0;
 }
 
 
@@ -405,7 +405,7 @@ li.second {
     font-family: Verdana, Arial, Helvetica, sans-serif;
     color: #FFFFFF;
     font-size: 11px;
-    padding: 15px 80px 0px 20px;
+    padding: 15px 80px 0 20px;
     clear: both;
     background-color: #0B1F34;
 }
@@ -439,10 +439,10 @@ a:hover {
 }
 
 .newslist ul {
-    padding-top: 0px;
-    padding-right: 0px;
+    padding-top: 0;
+    padding-right: 0;
     padding-bottom: 10px;
-    padding-left: 0px !important;
+    padding-left: 0 !important;
 
 }
 
@@ -450,11 +450,11 @@ a:hover {
     display: inline-block;
     list-style-type: none;
     overflow: hidden;
-    margin: 0px 14px;
+    margin: 0 14px;
     width: 210px;
     background-color: #0B1F34;
     height: 366px;
-    padding: 0px 0px 10px;
+    padding: 0 0 10px;
     position: relative;
     border: 1px solid #999999;
 }
@@ -463,10 +463,10 @@ li.featured {
     display: inline-block;
     list-style-type: none;
     overflow: hidden;
-    margin: 0px 14px 0px 0px;
+    margin: 0 14px 0 0;
     width: 210px;
     background-color: #D6AF4B;
-    padding: 0px 0px 10px;
+    padding: 0 0 10px;
     border: 1px solid #999999;
 }
 
@@ -492,12 +492,12 @@ li.featured {
 .newslist h3 {
     margin-top: 0;
     margin-right: 0;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     border-top-style: none;
     border-right-style: none;
     border-bottom-style: none;
     border-left-style: none;
-    text-shadow: 1px 1px 0px #333;
+    text-shadow: 1px 1px 0 #333;
     color: #FFFFFF;
     font-size: 18px;
     padding-top: 10px;
@@ -508,7 +508,7 @@ li.featured {
 
 
 .featured h3 {
-    text-shadow: 1px 1px 0px #333;
+    text-shadow: 1px 1px 0 #333;
     color: #FFFFFF;
 }
 
@@ -528,7 +528,7 @@ li.featured {
 
 .newslist li ul li {
     list-style-type: disc;
-    margin: 0px;
+    margin: 0;
     padding-top: 0;
     padding-right: 0;
     padding-bottom: 5px;
@@ -537,7 +537,7 @@ li.featured {
 }
 
 .newslist li ol li {
-    margin: 0px;
+    margin: 0;
     padding-top: 0;
     padding-right: 0;
     padding-bottom: 5px;
@@ -551,8 +551,8 @@ li.featured {
 }
 
 .newslist .buttonlight, .newslist .buttondark {
-    padding: 0px !important;
-    margin: 0 10px 0px 10px;
+    padding: 0 !important;
+    margin: 0 10px 0 10px;
     width: 190px;
     position: absolute;
     bottom: 10px;
@@ -570,7 +570,7 @@ li.featured {
 
 .fltlft {
     float: left;
-    padding: 0 10px 0 0px;
+    padding: 0 10px 0 0;
 }
 
 .buttonlight {
@@ -587,7 +587,7 @@ li.featured {
     color: #1F2A42 !important;
     padding: 5px 20px 5px 20px;
     text-align: center;
-    text-shadow: 1px 1px 0px #fff;
+    text-shadow: 1px 1px 0 #fff;
     border: 1px solid #cdcdcd;
     text-decoration: none;
     font-weight: normal;
@@ -598,7 +598,7 @@ li.featured {
 
 .buttonlight:hover {
     color: #E7BB52 !important;
-    text-shadow: 1px 1px 0px #000;
+    text-shadow: 1px 1px 0 #000;
     border: 1px solid #555555;
     text-decoration: none;
     background-color: #333;
@@ -619,7 +619,7 @@ li.featured {
     color: #E7BB52;
     padding: 5px 20px 5px 20px;
     text-align: center;
-    text-shadow: 1px 1px 0px #000;
+    text-shadow: 1px 1px 0 #000;
     border: 1px solid #151515;
     text-decoration: none;
     font-weight: normal;
@@ -630,7 +630,7 @@ li.featured {
 
 .buttondark:hover {
     color: #1F2A42 !important;
-    text-shadow: 1px 1px 0px #FFF;
+    text-shadow: 1px 1px 0 #FFF;
     border: 1px solid #cdcdcd;
     text-decoration: none;
     background-color: #FFF;
