@@ -4,7 +4,6 @@
 }
 
 body {
-    margin: 0;
     background: #e5e5e5 url(../images/bcg.jpg) repeat-x top right;
     font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: 12px;
@@ -81,9 +80,7 @@ ul li a:hover {
     height: 220px;
     width: 1000px;
     margin: auto;
-    background-color: #0B1F34;
     background-image: url(../images/top-head.jpg);
-    background-repeat: no-repeat;
 }
 
 .nav {
@@ -96,7 +93,6 @@ ul li a:hover {
 .nav-bar {
     height: 48px;
     width: 880px;
-    margin: auto;
     background-color: #1D3D7A;
     background-image: linear-gradient(270deg, rgba(0, 19, 65, 1) -10px, rgba(29, 60, 125, 0.7) 50%);
     background-position: left bottom;
@@ -138,16 +134,6 @@ ul li a:hover {
 .nav ul li a, .nav-bar ul li a {
     color: #DEB752;
     text-decoration: none;
-}
-
-.nav-bar {
-    height: 48px;
-    width: 880px;
-    margin: auto;
-    background-color: #1D3D7A;
-    background-image: linear-gradient(270deg, rgba(0, 19, 65, 1) -10px, rgba(29, 60, 125, 0.7) 50%);
-    background-position: left bottom;
-    padding-left: 120px;
 }
 
 .nav-bar ul {
